@@ -10,12 +10,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  # Untuk ikon iOS (default)
-  cupertino_icons: ^1.0.8
-
-  # ✅ Tambahkan dependency flutter_svg
   flutter_svg: ^2.0.10
+  shared_preferences: ^2.2.2
+  audioplayers: ^6.0.0
 
 dev_dependencies:
   flutter_test:
@@ -23,14 +20,14 @@ dev_dependencies:
 
   flutter_lints: ^5.0.0
 
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon_app.png" 
+  min_sdk_android: 21 
+
 flutter:
   uses-material-design: true
   assets:
-    - assets/BGHome.svg
-    - assets/Level0.svg
-    - assets/Level2.svg
-    - assets/levelEXP.svg
-    - assets/MenuKembali.svg
-    - assets/MenuSetting.svg
-    - assets/quest.svg
-    - assets/skinbaju.svg
+    - assets/
+    
